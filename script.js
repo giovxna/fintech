@@ -14,7 +14,7 @@ function simulador() {
 
     // validação do formulário
     if (input_nome !== '' && input_mensalidade !== '' && input_tempo !== '') {
-        // tofixed serve para arredondar as casas decimais
+        // tofixed para arredondar as casas decimais
         const calculo = (input_tempo * 12 * input_mensalidade).toFixed(2);
         resultado.textContent = `Olá, ${input_nome}! Juntando R$ ${input_mensalidade} todo mês, você terá ${calculo} em ${input_tempo} ano(s).`;
     } else {
@@ -22,6 +22,5 @@ function simulador() {
     }
 }
 
-// quando o usuário cliclar no botão de "simular", o evento de clique de
-// vai acontecer e pegará os dados informados
+// quando o usuário cliclar no botão de "simular", o evento de clique irá acontecer e pegará os dados informados no formulário
 simular.addEventListener('click', simulador);
