@@ -12,4 +12,7 @@ esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - Javascript
 
+---
+
+feito com ❤️ por [Giovana Siqueira](https://www.linkedin.com/in/giovana--siqueira/).
 
